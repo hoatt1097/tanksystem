@@ -1,0 +1,94 @@
+/* <========== style common ==========>*/
+a:hover, a:active, a:visited{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+/* <========== End style common ==========>*/
+
+
+.comtent_login{
+    width: 100%;
+    height: 800px;
+    background-image: url('images/background_login.jpg');
+}
+#bs3_col{
+    width: 370px;
+    border-radius: 2px;
+    padding: 0px 30px;
+    box-sizing: border-box;
+    position: fixed;
+    background-color: #b8b8b8;
+    left: 50%; 
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+}
+h3{
+    font-weight: bold;
+    font-size: 27px;
+    letter-spacing: -2px;
+    text-align: center;
+    margin: 70px 0 50px 0;
+    font-family: Myriad Pro;
+}
+input[type=text], input[type=password] {
+    border:  none;
+    margin-left: 10px;
+    width:85%;
+ } 
+#formlogin .row{
+    width: 100%;
+    padding: 9px 20px;
+    margin: 7px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+.fa{
+   font-size: 17px;
+}
+
+button {
+    background-color: #38969e;
+    color: white;
+    padding: 9px 0;
+    margin: 8px 0;
+    border: solid 1px white;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btnlogin{
+    float: right;
+    width: 50%;
+    margin-bottom: 70px;
+    border-radius: 2px;
+}
+.fogotpassword a{
+    float: right;
+    color: #8f2801;
+    font-weight: bold;
+    font-family: Bold Condensed;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.clearfix{
+    clear: both;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+@media screen and (max-width: 1024px)
+{
+    .container{
+        width: 100%;
+    }
+}
+
