@@ -32,7 +32,7 @@
                   <input type="password" placeholder="Password" name="password" required>
                 </div>
                 <div class="fogotpassword clearfix">
-                  <a href="" title="">Forgot password?</a>
+                  <a href="" title="">Change password?</a>
                 </div>
                 <div class="clearfix">
                   <button type="submit" class="btnlogin" name="btnlogin">Login</button>
@@ -40,6 +40,37 @@
               </form>
             </div>
           </div>
+
+          <div class="row"  style="display: none">
+            <div id="bs3_col"> 
+              <h3>CHANGE PASSWORD</h3>
+              <form action="login.php" method="post" id="formlogin">
+                <div class="row">
+                  <i class="fa fa-user"></i>
+                  <input type="text" placeholder="Username" name="username" required>
+                </div>
+                <div class="row">
+                  <i class="acc-closed fa fa-lock"></i>
+                  <input type="password" placeholder="Current password" name="password" required>
+                </div>
+                <div class="row">
+                  <i class="acc-closed fa fa-lock"></i>
+                  <input type="password" placeholder="New password" name="password" required>
+                </div>
+                <div class="row">
+                  <i class="acc-closed fa fa-lock"></i>
+                  <input type="password" placeholder="Confirm new password" name="password" required>
+                </div>
+                <div class="fogotpassword clearfix">
+                  <a href="" title="">   </a>
+                </div>
+                <div class="clearfix">
+                  <button type="submit" class="btnlogin" name="btnlogin">Change</button>
+                </div>         
+              </form>
+            </div>
+          </div>
+
         </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
